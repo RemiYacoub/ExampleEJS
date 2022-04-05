@@ -1,0 +1,6 @@
+[
+    {"valeur": "age",
+     "type": "numeric"},
+    {"valeur": "eye_color",
+        "type": "discrete"}
+]
