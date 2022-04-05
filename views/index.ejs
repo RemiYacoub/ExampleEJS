@@ -11,8 +11,20 @@
 
 </body>
 
-<script>
-    console.log(<%- JSON.stringify(data) %>)
-</script>
+
+<label for="cars">  </label>
+<select name="cars" id="cars">
+  <optgroup label="Cars">
+    <option value="Valeur"> <%- JSON.stringify( data[0]["nale"] ) %> </option>
+    <option value="Age"> <%- JSON.stringify( data[0]["valeur"] ) %> </option>
+  </optgroup>
+  <optgroup label="valeur">
+    <option value="Color"><%- JSON.stringify( data[0]["type"] ) %></option>
+    <option value="Quality"><%- JSON.stringify( data[0]["taille"] ) %></option>
+  </optgroup>
+</select> console.log(
+<%- JSON.stringify( data[0]["valeur"] )   %>)
+
+
 
 </html>
