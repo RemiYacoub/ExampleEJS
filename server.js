@@ -12,11 +12,10 @@ app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
     let fake_data = []
-    if (fs.existsSync("assets/data.json")) {
-        let rawdata = fs.readFileSync("assets/data.json");
+    if (fs.existsSync("assets/server.json")) {
+        let rawdata = fs.readFileSync("assets/server.json");
         fake_data = JSON.parse(rawdata)
     }
-
     res.render('index', { data: fake_data })
 })
 
