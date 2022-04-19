@@ -1,0 +1,47 @@
+[
+    {
+        "valeur": "age",
+        "type": "number"                          
+      },
+      {
+        "valeur": "eye_color",
+        "type": "discrete"                
+        },
+        {
+            "name": "Anastazia",
+            "valeur": "age",
+            "type": "number"                  
+          },
+          {
+            "name": "José",
+            "valeur": "eye s pigment",
+            "type": "discreet"                    
+            },
+            {
+                "name": "Loubna",
+                "valeur": "eye s pigment",
+                "type": "continuum"                      
+              },
+              {
+                "name": "Viviana",
+                "valeur": "texture",
+                "type": "gradient"                        
+                },
+                {
+                    "name": "Victoria",
+                    "valeur": "age",
+                    "type": "continuum"
+                  
+                  },
+                  {
+                    "name": "Selma",
+                    "valeur": "age",
+                    "type": "number",
+                    "taille": 182
+                    },
+                    {
+                        "name": "Sonya",
+                        "taille": 173,
+                        "age": 37                              
+                      }
+]
